@@ -67,6 +67,7 @@ var productpage = document.getElementById("productpage");
 products.forEach(function (productdetails) {
   // Create a div
   var item = document.createElement("div");
+  item.className = "card";
 
   // Product Image
   var productimage = document.createElement("img");
