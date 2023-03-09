@@ -72,7 +72,6 @@ products.forEach(function (productdetails) {
   // Product Image
   var productimage = document.createElement("img");
   productimage.src = productdetails.Picture;
-  productimage.width = 250;
 
   // Product Name
   var productname = document.createElement("p");
